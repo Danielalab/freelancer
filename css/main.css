@@ -137,7 +137,6 @@ header>nav>ul>li>a:hover {
   left: 48%;
 }
 
-
   /* section introduction */
 
 .introduction {
@@ -166,16 +165,16 @@ header>nav>ul>li>a:hover {
 
 .portfolio>div.container>h2 {
   color: #212529;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 .portfolio>div.container>.star>i {
-  color: #212529;
+  color: #2C3E50;
 }
 
 .portfolio>div.container>.star::before, 
 .portfolio>div.container>.star::after  {
-  background-color: #212529;
+  background-color: #2C3E50;
 }
 
 div.container>figure{
@@ -248,12 +247,12 @@ div.container>figure{
 }  
 
 .contact>.star>i {
-  color: #212529;
+  color: #2C3E50;
 }
 
 .contact>.star::before, 
 .contact>.star::after  {
-  background-color: #212529;
+  background-color: #2C3E50;
 }
 
 .contact>form {
