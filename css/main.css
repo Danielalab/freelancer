@@ -37,16 +37,35 @@ h2 {
   font-size: 3em;
 }
 
-hr {
-  margin: 25px auto 30px;
-  max-width: 250px;
-  text-align: center;
-  border-top: solid 5px;
-}
-
 .text-uppercase {
   text-transform: uppercase;
 }
+
+div.star {
+  height: 30px;
+  margin: 2% auto;
+  margin-top : 1%;
+}
+
+.star::after {
+  content: '';
+  width:7%;
+  height: 5px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 1%;
+  transform: translateY(-200%);
+}
+
+.star::before {
+  content: '';
+  width:7%;
+  height: 5px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 1%;
+  transform: translateY(-200%);
+}  
 
 /*Estilos individuales*/
 
@@ -149,8 +168,13 @@ header>nav>ul>li>a:hover {
   margin-bottom: 2%;
 }
 
-.portfolio>div.container>hr{
-  border-color: #212529;
+.portfolio>div.container>.star>i {
+  color: #212529;
+}
+
+.portfolio>div.container>.star::before, 
+.portfolio>div.container>.star::after  {
+  background-color: #212529;
 }
 
 div.container>figure{
@@ -172,7 +196,7 @@ div.container>figure{
 }
 
 .about-freelancer>div.container>h2 {
-  margin-bottom: 3%;
+  margin-bottom: 1%;
 }
 
 .about-freelancer>div.container>p{
@@ -214,12 +238,21 @@ div.container>figure{
   color:#212529;
   display: block;
   margin: 4% 0;
-  margin-bottom: 2.5%;
+  margin-bottom: 1%;
   text-align: center;  
 }
 
-.contact>hr {
-  border-color: #212529;
+.contact>.star {
+  text-align: center;
+}  
+
+.contact>.star>i {
+  color: #212529;
+}
+
+.contact>.star::before, 
+.contact>.star::after  {
+  background-color: #212529;
 }
 
 .contact>form {
