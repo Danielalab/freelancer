@@ -19,7 +19,9 @@ El objetivo del proyecto es maquetar la página web *Freelancer* ; como muestra 
 
 * Dentro de la carpeta `assets` se encuentra la carpeta `images` que contiene todas las imágenes necesarias para completar el proyecto.  
 También se encuentra la carpeta `icons` la cual contiene la carpeta `font-awesome` que fue descargada desde [Font Awesome](http://fontawesome.io/) para utilizar diversos iconos en nuestro proyecto.  
-Por último se encuentra la carpeta `docs` la cual contiene imagenes utilizadas en la redacción de este documento. 
+Por último se encuentra la carpeta `docs` la cual contiene imagenes utilizadas en la redacción de este documento.
+
+* Dentro de la carpeta `js` se encuentra el archivo `app.js` el cual contiene el código `javascript` para modificar los estilos del header al mover el `scroll` en la web .
 
 ## Bugs
 

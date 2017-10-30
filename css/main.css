@@ -102,6 +102,22 @@ header>nav>ul>li>a:hover {
   color: #18bc9c;
 }  
 
+/* HEADER - scroll */
+
+.header-scroll {
+  height: 85px;
+}
+
+.header-scroll>h3{
+  font-size:1.7em;
+  top: 15%;
+}
+
+.header-scroll>nav{
+  top : 25%;
+}
+
+
   /* section introduction */
 
 .introduction {
