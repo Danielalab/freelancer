@@ -1,3 +1,339 @@
-/*
- * Estilos de tu proyecto
- */
+/*Estilos reutilizable del proyecto*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+}
+
+.font-family-1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-family-2{
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  height: 90%;
+  margin: 0 auto;
+  padding-top: 4.5%;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%); 
+  width: 85%;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+hr {
+  margin: 25px auto 30px;
+  max-width: 250px;
+  text-align: center;
+  border-top: solid 5px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*Estilos individuales*/
+
+  /*HEADER*/  
+
+header {
+  background-color:#2C3E50;
+  bottom: 0;
+  height: 115px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+header>h3 , header>nav {
+  display: inline-block;
+  position: relative;
+}
+
+header>h3 {
+  font-size: 2em;
+  left: 10%;
+  top: 25%;
+  transform: translateY(-50%);
+}
+
+header nav {
+  left: 45%;
+  overflow: hidden;
+  width: 30%;
+  top: 35%;
+}
+
+header>hr{
+  border-color: #fff;  
+}
+
+header>nav>ul>li {
+  float: left;
+  list-style: none;
+  padding: 3%;  
+  margin: 0;
+}
+
+header>nav>ul>li>a {
+  display: inline-block;
+  position: relative;
+  height: 30px;
+}  
+
+header>nav>ul>li>a:hover {
+  color: #18bc9c;
+}  
+
+  /* section introduction */
+
+.introduction {
+  background-color: #18bc9c;
+  height: 686px;
+  margin-top: 115px;
+}
+
+.introduction>.container>img{
+  margin-bottom: 2%;
+}
+
+.introduction>.container>h1 {
+  font-size: 4.7em;
+}
+
+.introduction>.container>span {
+  font-size: 1.75em;
+}
+
+  /* section portfolio */
+
+.portfolio {
+  height: 886px;
+}
+
+.portfolio>div.container>h2 {
+  color: #212529;
+  margin-bottom: 2%;
+}
+
+.portfolio>div.container>hr{
+  border-color: #212529;
+}
+
+div.container>figure{
+  display: inline-block;
+  padding: 1.5%;
+  width: 30.3%;
+}
+
+.portfolio>div.container>figure>img{
+  display: inline-block;
+  width: 100%;
+}
+
+  /*section ABOUT*/
+
+.about-freelancer {
+  background-color: #18bc9c; 
+  height: 578px;
+}
+
+.about-freelancer>div.container>h2 {
+  margin-bottom: 3%;
+}
+
+.about-freelancer>div.container>p{
+  column-count: 2;
+  column-width: 50%;
+  height: 45%;
+  font-size: 1.2em;
+  font-stretch: extra-expanded;
+  margin: 0 auto;
+  padding-right: 25px;
+  padding-left: 25px; 
+  text-align: left; 
+  width: 65%;
+  line-height: 1.5; 
+}
+
+.about-freelancer>div.container>span {
+  border: 2px solid white;
+  border-radius:5px;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 1% 1.5%;
+  cursor: pointer;
+}
+
+.about-freelancer>div.container>span:hover {
+  background-color: white;
+  color:  #18bc9c;
+
+}  
+
+  /*section Contact*/
+
+.contact {
+  height: 938px;
+}
+
+.contact>h2 {
+  color:#212529;
+  display: block;
+  margin: 4% 0;
+  margin-bottom: 2.5%;
+  text-align: center;  
+}
+
+.contact>hr {
+  border-color: #212529;
+}
+
+.contact>form {
+  margin: 0 auto;
+  padding: 2% 3%;
+  width: 60%;
+  height: 70%;
+}
+
+textarea {
+  resize: none;
+  max-height: 45%;
+  min-height: 45%;
+}
+
+.contact>form>input {
+  height: 10%;
+}
+
+input[placeholder], textarea[placeholder] {
+  color: #212529;
+  font-size: 1.5em;
+}
+
+input::placeholder,textarea::placeholder {
+  color:#979494;
+  font-family: Arial;
+  font-size: 0.9em;
+}  
+
+.contact>form>input, textarea {
+  border: 0;
+  border-bottom: 1px solid #e0dfdf;
+  margin-bottom: 2%;
+  padding-top: 4%;
+  padding-bottom: 7%;
+  width: 100%;
+}
+
+input:focus , textarea:focus{
+  outline: none; 
+}
+
+#submit{
+  background-color: #18bc9c;
+  border-radius: 5px;   
+  color: white;
+  display: inline-block;
+  height: 8%;
+  margin: 0;
+  padding: 1%;
+  width: 10%;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+#submit:hover {
+  background-color: #128f76;
+}
+
+/*input#submit[value=Send]{*/
+
+
+ /* FOOTER */
+
+footer {
+  background-color: #2c3e50;
+  height: 343px; 
+}
+
+footer>div.container{
+  column-count: 3;
+  height: 55%;
+  padding-top: 0;
+  top: 42%;
+}
+
+footer>div.container>h3 {
+  font-size: 1.7em;
+  margin-bottom: 10%;
+}
+
+footer>div.container>span {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+footer>div.container>span>span.color {
+  color: #18bc9c;
+  cursor: pointer;  
+}  
+
+footer>div.container>span>span.color:hover {
+  text-decoration: underline;
+}  
+
+footer>div.container>ul{
+  margin: 6% 0;
+}
+
+footer>div.container>ul>li{
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  list-style: none;
+  margin: 0 0.5%;
+}
+
+footer>div.container>ul>li>a{
+  display: inline-block;
+  font-size: 1.2em;
+  height: inherit;
+  position: relative;
+  top: 25%;
+  width: 95%;
+} 
+
+footer>div.container>ul>li:hover {
+  background-color: #ffffff;
+}
+footer>div.container>ul>li>a:hover {
+  color: #18bc9c;
+}
+
+footer>span{
+  display: block;
+  font-size: 1em;
+  margin-top:8%; 
+  text-align: center;
+}
