@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Freelancer - Start Bootstrap Theme</title>
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
-  <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">    
+  <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -20,9 +20,15 @@
     <!--menu de navegación-->
     <nav>
       <ul>
-        <li><a href="#" class="font-family-1 text-uppercase">portfolio</a></li>
-        <li><a href="#" class="font-family-1 text-uppercase ">about</a></li>
-        <li><a href="#" class="font-family-1 text-uppercase ">contact</a></li>
+        <li>
+          <a href="#" class="font-family-1 text-uppercase">portfolio</a>
+        </li>
+        <li>
+          <a href="#" class="font-family-1 text-uppercase ">about</a>
+        </li>
+        <li>
+          <a href="#" class="font-family-1 text-uppercase ">contact</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -34,51 +40,67 @@
       <img src="assets/images/profile.png" alt="photo-profile">
       <!--texto introductorio-->
       <h1 class="font-family-1 text-uppercase">start bootstrap</h1>
-      <div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+      <div class="star">
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+      </div>
       <span class="font-family-2">Web Developer - Graphic Artist - User Experience Designer</span>
     </div>
   </section>
   <!--sectión del Portafolio-->
   <section class="portfolio">
     <div class="container">
-      <h2 class="font-family-1 text-uppercase">portfolio</h2> 
-      <div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>      
-        <!--imagenes de proyectos -->
-      <figure>
-        <img src="assets/images/portfolio/cabin.png" alt="proyect-cabin">
-      </figure>
-      <figure>
-        <img src="assets/images/portfolio/cake.png" alt="proyect-cake">
-      </figure>
-      <figure>
-        <img src="assets/images/portfolio/circus.png" alt="proyect-circus">
-      </figure>
-      <figure>
-        <img src="assets/images/portfolio/game.png" alt="proyect-game">
-      </figure>
-      <figure>
-        <img src="assets/images/portfolio/safe.png" alt="proyect-safe">
-      </figure>
-      <figure>
-        <img src="assets/images/portfolio/submarine.png" alt="proyect-submarine">
-      </figure> 
+      <h2 class="font-family-1 text-uppercase">portfolio</h2>
+      <div class="star">
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+      </div>
+      <!--imagenes de proyectos -->
+
+      <div class="row">
+        <figure class="col-xs-12 col-sm-4">
+          <img src="assets/images/portfolio/cabin.png" alt="proyect-cabin">
+        </figure>
+        <figure class="col-xs-12 col-sm-4">
+          <img src="assets/images/portfolio/cake.png" alt="proyect-cake">
+        </figure>
+        <figure class="col-xs1 col-sm-4">
+          <img src="assets/images/portfolio/circus.png" alt="proyect-circus">
+        </figure>
+        <figure class="col-sm-4">
+          <img src="assets/images/portfolio/game.png" alt="proyect-game">
+        </figure>
+        <figure class="col-sm-4">
+          <img src="assets/images/portfolio/safe.png" alt="proyect-safe">
+        </figure>
+        <figure class="col-sm-4">
+          <img src="assets/images/portfolio/submarine.png" alt="proyect-submarine">
+        </figure>
+      </div>
+
+
     </div>
   </section>
   <!--información sobre la web-->
   <section class="about-freelancer">
     <div class="container">
       <h2 class="font-family-1 text-uppercase">About</h2>
-      <div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>      
-      <p class="font-family-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-      Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+      <div class="star">
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+      </div>
+      <p class="font-family-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including
+        HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. Whether you're a student looking
+        to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects,
+        this template is the perfect starting point!
       </p>
-      <span class="font-family-2"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</span>
+      <span class="font-family-2">
+        <i class="fa fa-download" aria-hidden="true"></i> Download Theme</span>
     </div>
   </section>
   <!--Formulario de contacto-->
   <section class="contact">
     <h2 class="font-family-1 text-uppercase">contact me</h2>
-    <div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>    
+    <div class="star">
+      <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+    </div>
     <form>
       <input class="font-family-2" type="text" placeholder="Name:">
       <input type="email" placeholder="Email Address">
@@ -90,24 +112,46 @@
   <!--Información adicional-pie de pagina-->
   <footer>
     <div class="container">
-    <h3 class="font-family-1 text-uppercase">Location</h3>
-    <span class="font-family-2">3481 Melrose Place <br> Beverly Hills, CA 90210</span> <br>
-    <br>
-    <h3 class="font-family-1 text-uppercase">Around the web</h3>
-    <ul>
-      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li> 
-    </ul> 
-    <br>
-    <h3 class="font-family-1 text-uppercase">About Freelancer</h3>
-    <span class="font-family-2">Freelance is a free to use, open source Bootstrap theme created by 
-      <span class="color">Start Bootstrap</span>.</span>
+      <h3 class="font-family-1 text-uppercase">Location</h3>
+      <span class="font-family-2">3481 Melrose Place
+        <br> Beverly Hills, CA 90210</span>
+      <br>
+      <br>
+      <h3 class="font-family-1 text-uppercase">Around the web</h3>
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-dribbble" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+      <br>
+      <h3 class="font-family-1 text-uppercase">About Freelancer</h3>
+      <span class="font-family-2">Freelance is a free to use, open source Bootstrap theme created by
+        <span class="color">Start Bootstrap</span>.</span>
     </div>
     <span class="font-family-2">Copyright © Your Website 2017</span>
-  </footer> 
+  </footer>
 
   <!-- js para cambio de header-->
   <script src="https://code.jquery.com/jquery-latest.js"></script>
